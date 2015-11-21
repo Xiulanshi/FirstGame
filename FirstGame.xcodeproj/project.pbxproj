@@ -18,6 +18,7 @@
 		D907AD571C011BFB005D30A9 /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = D907AD551C011BFB005D30A9 /* background-music-aac.caf */; };
 		D907AD581C011BFB005D30A9 /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = D907AD561C011BFB005D30A9 /* pew-pew-lei.caf */; };
 		D907AD5A1C011C0B005D30A9 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = D907AD591C011C0B005D30A9 /* sprites.atlas */; };
+		D907AD5C1C012CEF005D30A9 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D907AD5B1C012CEF005D30A9 /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		D907AD551C011BFB005D30A9 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
 		D907AD561C011BFB005D30A9 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		D907AD591C011C0B005D30A9 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = sprites.atlas; path = Sounds/sprites.atlas; sourceTree = "<group>"; };
+		D907AD5B1C012CEF005D30A9 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				D907AD221C01193A005D30A9 /* AppDelegate.swift */,
 				D907AD261C01193A005D30A9 /* GameScene.swift */,
 				D907AD281C01193A005D30A9 /* GameViewController.swift */,
+				D907AD5B1C012CEF005D30A9 /* GameOverScene.swift */,
 				D907AD2A1C01193A005D30A9 /* Main.storyboard */,
 				D907AD2D1C01193A005D30A9 /* Assets.xcassets */,
 				D907AD2F1C01193A005D30A9 /* LaunchScreen.storyboard */,
@@ -284,6 +287,7 @@
 			files = (
 				D907AD271C01193A005D30A9 /* GameScene.swift in Sources */,
 				D907AD291C01193A005D30A9 /* GameViewController.swift in Sources */,
+				D907AD5C1C012CEF005D30A9 /* GameOverScene.swift in Sources */,
 				D907AD231C01193A005D30A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
